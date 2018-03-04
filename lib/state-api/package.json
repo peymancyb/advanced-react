@@ -1,0 +1,9 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "Api",
+  "main": "lib/index.js",
+  "repository": "https://github.com/peymancyb/state-api",
+  "author": "peyman",
+  "license": "MIT"
+}
