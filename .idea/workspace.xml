@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03b025ea-bb4e-4122-b65c-2093fe450bfa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
-      <change beforePath="$PROJECT_DIR$/lib/components/App.js" afterPath="$PROJECT_DIR$/lib/components/App.js" />
-      <change beforePath="$PROJECT_DIR$/lib/components/Article.js" afterPath="$PROJECT_DIR$/lib/components/Article.js" />
-      <change beforePath="$PROJECT_DIR$/lib/components/ArticleList.js" afterPath="$PROJECT_DIR$/lib/components/ArticleList.js" />
-      <change beforePath="$PROJECT_DIR$/lib/renderers/dom.js" afterPath="$PROJECT_DIR$/lib/renderers/dom.js" />
-      <change beforePath="$PROJECT_DIR$/lib/renderers/server.js" afterPath="$PROJECT_DIR$/lib/renderers/server.js" />
-      <change beforePath="$PROJECT_DIR$/lib/state-api/lib/index.js" afterPath="$PROJECT_DIR$/lib/state-api/lib/index.js" />
-      <change beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/public/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Article.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/components/Article.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -72,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/lib/renderers/dom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -118,6 +121,7 @@
         <option value="$PROJECT_DIR$/lib/components/App.js" />
         <option value="$PROJECT_DIR$/lib/components/ArticleList.js" />
         <option value="$PROJECT_DIR$/lib/components/Article.js" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -255,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520451776199</updated>
-      <workItem from="1520451779386" duration="1421000" />
+      <workItem from="1520451779386" duration="1566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1421000" />
+    <option name="totallyTimeSpent" value="1566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -318,7 +322,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -346,7 +350,7 @@
     <entry file="file://$PROJECT_DIR$/lib/renderers/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -385,6 +389,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
