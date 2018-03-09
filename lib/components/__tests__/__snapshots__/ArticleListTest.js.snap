@@ -1,106 +1,150 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleList renders correctly 1`] = `
-<div>
-  <div
-    style={
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArticleList
+    articles={
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 5,
+        "a": Object {
+          "id": "a",
+        },
+        "b": Object {
+          "id": "b",
+        },
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-  <div
-    style={
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ArticleContainer
+          article={
+            Object {
+              "id": "a",
+            }
+          }
+          store={undefined}
+        />,
+        <ArticleContainer
+          article={
+            Object {
+              "id": "b",
+            }
+          }
+          store={undefined}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 5,
-      }
-    }
-  >
-    <div
-      style={
+        "instance": null,
+        "key": "a",
+        "nodeType": "class",
+        "props": Object {
+          "article": Object {
+            "id": "a",
+          },
+          "store": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "b",
+        "nodeType": "class",
+        "props": Object {
+          "article": Object {
+            "id": "b",
+          },
+          "store": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ArticleContainer
+            article={
+              Object {
+                "id": "a",
+              }
+            }
+            store={undefined}
+          />,
+          <ArticleContainer
+            article={
+              Object {
+                "id": "b",
+              }
+            }
+            store={undefined}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
+          "instance": null,
+          "key": "a",
+          "nodeType": "class",
+          "props": Object {
+            "article": Object {
+              "id": "a",
+            },
+            "store": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-</div>
+          "instance": null,
+          "key": "b",
+          "nodeType": "class",
+          "props": Object {
+            "article": Object {
+              "id": "b",
+            },
+            "store": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

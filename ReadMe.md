@@ -1,3 +1,1 @@
-## READ ME
-
-# Advanced React Project
+Advanced react project
