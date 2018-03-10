@@ -18,18 +18,18 @@
 <h2>Updating:</h2>
 <p> An update can cause by changes to props or state. these methods are called when a component being re-render. </p>
 *componentWillReceiveProps()
-```
+<pre>
 componentWillReceiveProps(nextProps){
         // every time the parent component re-render the child component receive props
     }
-```
+</pre>
 <br>
 *shouldComponentUpdate()
-```
+<pre>
 shouldComponentUpdate(nextProps,nextState){
         // return true || false
     }
- ```
+ </pre>
 <br>
 *componentWillUpdate()
 <br>
