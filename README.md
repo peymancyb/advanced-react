@@ -1,6 +1,7 @@
 <h1>Advanced React</h1>
-
-
+<div>
+![1_lxpawhurzkye3fq2ibzcqg](https://user-images.githubusercontent.com/18486930/37240052-de40a0d8-245e-11e8-9014-2caa3b8cd018.png)
+</div>
 <h2>React Component Lifecycle</h2>
 
 <h3>Mounting:</h3>
