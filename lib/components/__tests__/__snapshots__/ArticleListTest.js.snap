@@ -35,7 +35,6 @@ ShallowWrapper {
               "id": "a",
             }
           }
-          store={undefined}
         />,
         <ArticleContainer
           article={
@@ -43,7 +42,6 @@ ShallowWrapper {
               "id": "b",
             }
           }
-          store={undefined}
         />,
       ],
     },
@@ -57,7 +55,6 @@ ShallowWrapper {
           "article": Object {
             "id": "a",
           },
-          "store": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -71,7 +68,6 @@ ShallowWrapper {
           "article": Object {
             "id": "b",
           },
-          "store": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -93,7 +89,6 @@ ShallowWrapper {
                 "id": "a",
               }
             }
-            store={undefined}
           />,
           <ArticleContainer
             article={
@@ -101,7 +96,6 @@ ShallowWrapper {
                 "id": "b",
               }
             }
-            store={undefined}
           />,
         ],
       },
@@ -115,7 +109,6 @@ ShallowWrapper {
             "article": Object {
               "id": "a",
             },
-            "store": undefined,
           },
           "ref": null,
           "rendered": null,
@@ -129,7 +122,6 @@ ShallowWrapper {
             "article": Object {
               "id": "b",
             },
-            "store": undefined,
           },
           "ref": null,
           "rendered": null,

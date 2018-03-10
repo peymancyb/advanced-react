@@ -17,8 +17,18 @@
 <h2>Updating:</h2>
 <p> An update can cause by changes to props or state. these methods are called when a component being re-render. </p>
 *componentWillReceiveProps()
+```
+componentWillReceiveProps(nextProps){
+        // every time the parent component re-render the child component receive props
+    }
+```
 <br>
 *shouldComponentUpdate()
+```
+shouldComponentUpdate(nextProps,nextState){
+        // return true || false
+    }
+ ```
 <br>
 *componentWillUpdate()
 <br>
@@ -55,3 +65,15 @@
  <br>
  *state
  <br>
+
+<hr>
+
+<h1>performance optimization:</h1>
+
+<p>
+1) you should measure it first
+in react application most of the optimization concerns happens during the update operation of a component.
+
+*componentWillReceiveProps() method is not super useful for performance analysis
+
+</p>
